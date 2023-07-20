@@ -11,10 +11,19 @@ body {
 
 nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
     width: 100%;
     height: 50px;
-    background: #0d799d;
+}
+
+.main a {
+    color: #a07e16;
+    font-size: 25px;
+    border: 2px solid #e6ba33;
+    border-radius: 25px;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 .main {
@@ -22,9 +31,26 @@ nav {
     justify-content: flex-start;
     flex-direction: column;
     width: 100%;
-    height: 250px;
-    background: #2d2d2d;
+    height: 650px;
+    background: #e9d4a5;
 }
+
+.as {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.as img {
+    width: 10%;
+    height: 10%;
+}
+.data {
+    display: flex;
+    justify-content: center;
+}
+
+
 
 .conteiner{
     max-width: 1920px;
