@@ -24,6 +24,7 @@ nav {
 .dropbtn {
    padding: 16px;
     background-color: #fef5f2;
+    cursor: pointer;
 }
 .dropbtn img {
     width: 75px;
