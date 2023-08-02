@@ -60,7 +60,7 @@ nav {
 }
 /* настройка цвета контента при наведении мыши*/
 .dropdown:hover .dropbtn {
-    background-color: #f6cdd9;
+   
 }
 .priglos {
     display: flex;
