@@ -146,7 +146,10 @@ nav {
     font-family: bethoveen;
     src: url(../fonts/bethoveen.ttf);
 }
-
+@font-face {
+    font-family:dreams;
+    src: url(../fonts/dreams.ttf);
+}
 .conteiner{
     max-width: 420px;
     margin: 0 auto;
