@@ -90,9 +90,63 @@ nav {
     width: 100%;
     padding-top: 50px;
 }
+
+.info {
+    width: 100%;
+    height: 845px; 
+    background: #fef5f2;
+}
+.miZenimsa {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    
+}
+.miZenimsa h1 {
+    opacity: .2;
+    font-size: 35px;
+    font-family: dreams;
+    text-align: center;
+    text-transform: uppercase;
+    color: #eeb87d;
+}
+.miZenimsa h2 {
+    font-size: 32px;
+    padding-left: 15%;
+    margin-top: -3%;
+}
+.info p {
+    margin-top: 35px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 15px;
+    line-height: 20px;
+}
+.infoData {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin-top: 7px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.infoData h2 {
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 2px solid #eeb87d;
+    border-bottom: 2px solid #eeb87d;
+    color: #eeb87d;
+}
+
 @font-face {
     font-family: bethoveen;
     src: url(../fonts/bethoveen.ttf);
+    font-family: dreams;
+    src: url(../fonts/dreams.ttf);
 }
 
 .conteiner{
