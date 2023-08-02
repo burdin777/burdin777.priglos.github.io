@@ -1,0 +1,116 @@
+html {
+    height: 100%;
+}
+body {
+    height:auto ;
+    width: 100%;
+    min-height: 100%;
+    font-family: Arial, sans-serif;
+    background: #dadada;
+}
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+.main {
+    width: 100%;
+    height: 845px;
+    background: #f8e7e2;
+}
+
+/* Dropdown button */
+.dropbtn {
+   padding: 16px;
+    background-color: #f8e7e2;
+}
+.dropbtn img {
+    width: 75px;
+    height: 30px;
+}
+/* div - для позиции кнопки */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+/*Контент для кнопки*/
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba (0,0,0,0.2);
+    z-index: 1;
+}
+/*ссылки контента*/
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+/* Выбор цвета кнопки при наведении мыши */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+/* Показать меню при наведении */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* настройка цвета контента при наведении мыши*/
+.dropdown:hover .dropbtn {
+    background-color: #f6cdd9;
+}
+.priglos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.priglos h1 {
+    font-size: 75px;
+    font-family: bethoveen;
+}
+.priglos h2 {
+    font-size: 35px;
+}
+.main h4 {
+    padding-top: 25px;
+    font-size: 23px;
+    text-align: center;
+    color: #eeb87d;
+}
+.data h3 {
+    font-family: bethoveen;
+    font-size: 45px;
+    text-align: center;
+}
+
+@font-face {
+    font-family: bethoveen;
+    src: url(../fonts/bethoveen.ttf);
+}
+
+.conteiner{
+    max-width: 420px;
+    margin: 0 auto;
+}
+
+@media (max-width:1199px){
+    .conteiner{
+        max-width: 992px;
+    }
+}
+
+@media (max-width:992px){
+    .conteiner{
+        max-width: 750px;
+    }
+}
+@media (max-width:749px){
+    .conteiner{
+        max-width: none;
+    }
+}
+
