@@ -17,13 +17,13 @@ nav {
 .main {
     width: 100%;
     height: 845px;
-    background: #f8e7e2;
+    background: #fef5f2;
 }
 
 /* Dropdown button */
 .dropbtn {
    padding: 16px;
-    background-color: #f8e7e2;
+    background-color: #fef5f2;
 }
 .dropbtn img {
     width: 75px;
@@ -56,7 +56,9 @@ nav {
 }
 /* Показать меню при наведении */
 .dropdown:hover .dropdown-content {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 /* настройка цвета контента при наведении мыши*/
 .dropdown:hover .dropbtn {
