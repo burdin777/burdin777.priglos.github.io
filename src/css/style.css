@@ -86,7 +86,10 @@ nav {
     font-size: 45px;
     text-align: center;
 }
-
+.fotoWi {
+    width: 100%;
+    padding-top: 50px;
+}
 @font-face {
     font-family: bethoveen;
     src: url(../fonts/bethoveen.ttf);
