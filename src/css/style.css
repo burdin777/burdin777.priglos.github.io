@@ -235,7 +235,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border-top: 2px solid #eeb87d;
+    border-top: 1px solid #eeb87d;
     margin-left: 15%;
     margin-right: 15%;
     padding-top: 10px;
@@ -247,8 +247,8 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    border-top: 2px solid #eeb87d;
-    border-bottom: 2px solid #eeb87d;
+    border-top: 1px solid #eeb87d;
+    border-bottom: 1px solid #eeb87d;
     margin-left: 15%;
     margin-right: 15%;
     padding-top: 10px;
@@ -256,7 +256,7 @@ nav {
     font-size: 15px;
 }
 
-.vstrecha1 h5 {
+.mesto h5 {
     text-align: end;
     
 }
