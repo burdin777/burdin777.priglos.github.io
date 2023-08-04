@@ -296,6 +296,8 @@ nav {
     align-items: center;
 }
 .vopros h1 {
+    padding-left: 15%;
+    padding-right: 15%;
     margin-top: 100px;
     opacity: .3;
     font-size: 35px;
@@ -396,6 +398,7 @@ nav {
 }
 
 .podval {
+    text-align: end;
     background: #f3d3d2;
 }
 
